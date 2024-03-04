@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Card from './Card'
 
-const url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
+
+const apiKey = '6ud89UXM2DmusSIRj4cGpKAJHB2L7VWOs7jTPma8'
+const url = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
 
 
 
